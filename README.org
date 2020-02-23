@@ -10,6 +10,7 @@ This is a simple template for a JHEP paper with minor alterations:
 Executing =make= will compile the tikz pictures with LuaLaTeX (necessary for
 [[https://jpellis.me/projects/tikz-feynman/][=tikz-feynman=]]) for drawing Feynman diagrams.
 
+#+BEGIN_SRC
 .
 ├── JHEP.bst
 ├── Makefile
@@ -22,3 +23,4 @@ Executing =make= will compile the tikz pictures with LuaLaTeX (necessary for
 └── tikz
     ├── Makefile
     └── tikz1.tex
+#+END_SRC
