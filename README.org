@@ -1,0 +1,24 @@
+* JHEP Template
+
+This is a simple template for a JHEP paper with minor alterations:
+
+1. References with arXiv numbers display the correct number of digits, and the
+   link is updated to =arXiv.org/abs=
+2. The =tikz/= directory contains standalone TikZ pictures which are copied to
+   the =img/= directory after the make command
+
+Executing =make= will compile the tikz pictures with LuaLaTeX (necessary for
+[[https://jpellis.me/projects/tikz-feynman/][=tikz-feynman=]]) for drawing Feynman diagrams.
+
+.
+├── JHEP.bst
+├── Makefile
+├── README.org
+├── img
+│   └── tikz1.pdf
+├── jheppub.sty
+├── main.bib
+├── main.tex
+└── tikz
+    ├── Makefile
+    └── tikz1.tex
