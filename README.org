@@ -8,7 +8,8 @@ This is a simple template for a JHEP paper with minor alterations:
    the =img/= directory after the make command
 
 Executing =make= will compile the tikz pictures with LuaLaTeX (necessary for
-[[https://jpellis.me/projects/tikz-feynman/][=tikz-feynman=]]) for drawing Feynman diagrams.
+[[https://jpellis.me/projects/tikz-feynman/][tikz-feynman]]) for drawing 
+Feynman diagrams.
 
 #+BEGIN_SRC
 .
